@@ -1,0 +1,13 @@
+#sidebar {
+  display: none;
+  scrollbar-gutter: stable;
+  width: auto;
+}
+
+CriboApp.-show-sidebar #sidebar {
+  display: block;
+  dock: left;
+  height: 100%;
+  max-width: 50%;
+  background: #151c25;
+}
