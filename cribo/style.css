@@ -4,10 +4,23 @@
   width: auto;
 }
 
+#add-modal {
+  display: none;
+  width: auto;
+}
+
 CriboApp.-show-sidebar #sidebar {
   display: block;
   dock: left;
   height: 100%;
-  max-width: 50%;
+  max-width: 20%;
+  background: #151c25;
+}
+
+CriboApp.-show-add-modal #add-modal {
+  display: block;
+  dock: bottom;
+  max-height: 30%;
+  width: 100%;
   background: #151c25;
 }
